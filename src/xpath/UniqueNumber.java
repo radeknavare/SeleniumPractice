@@ -11,7 +11,7 @@ public class UniqueNumber {
 		ArrayList<Integer> outputList = new ArrayList<Integer>();
 		
 		for(int i=0; i < inputArray.length; i++)
-		{
+		{ 
 			int counter;
 			counter=0;
 			if(!outputList.contains(inputArray[i]))
